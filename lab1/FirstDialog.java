@@ -1,7 +1,9 @@
+//Mai Thu Hien - 20200203
 import javax.swing.JOptionPane;
 public class FirstDialog{
     public static void main(String[] args){
-        JOptionPane.showMessageDialog(null, "Hellooo");
+        JOptionPane.showMessageDialog(null, "Hello world! How are you");
         System.exit(0);
     }
+    
 }
