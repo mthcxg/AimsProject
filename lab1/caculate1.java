@@ -1,4 +1,5 @@
 //Mai Thu Hien - 20200203
+//2.5
 //tinh tong hieu tich thuong cua 2 so do nguoi dung nhap
 import java.util.*;  
 public class caculate1 {
@@ -18,13 +19,10 @@ public class caculate1 {
         div = num1/num2;
         mul = num1*num2;
         
-        System.out.print("Tong 2 so la: "+ sum ); 
-        System.out.print("\n");
-        System.out.print("Hieu 2 so la: "+ minus); 
-        System.out.print("\n");
-        System.out.print("Thuong 2 so la: "+ div);
-        System.out.print("\n");
-        System.out.print("Tich 2 so la: "+ mul);
+        System.out.println("Tong 2 so la: "+ sum ); 
+        System.out.println("Hieu 2 so la: "+ minus); 
+        System.out.println("Thuong 2 so la: "+ div);
+        System.out.println("Tich 2 so la: "+ mul);
         System.exit(0);
     }
 }
