@@ -14,10 +14,10 @@ public class caculate1 {
         double num1 = Double.parseDouble(strNum1); //chuyen string thanh double
         double num2 = Double.parseDouble(strNum2);
         double sum, minus, div, mul;
-        sum = num1 + num2;
-        minus = num1 - num2;
-        div = num1/num2;
-        mul = num1*num2;
+        sum = num1 + num2; //tong
+        minus = num1 - num2; //hieu
+        div = num1/num2; //tich
+        mul = num1*num2; //thuong
         
         System.out.println("Tong 2 so la: "+ sum ); 
         System.out.println("Hieu 2 so la: "+ minus); 
