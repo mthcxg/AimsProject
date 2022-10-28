@@ -32,14 +32,14 @@ public class hept2an {
         float Dx = c1*b2 - c2*b1;
         float Dy = a1*c2 - a2*c1;
         if (D == 0){
-            if(Dx == 0 && Dy == 0){
+            if(Dx == 0 && Dy == 0){ //D = Dx = Dy = 0
                 System.out.print("Phuong trinh vo so nghiem");
             }
-            else{
+            else{ //D = 0, Dx hoac Dy khac 0
                 System.out.print("Phuong trinh vo nghiem");
             }
         }
-        else{
+        else{ //D khac 0
             System.out.print("He co 1 nghiem" + " x = " + (Dx/D) + "," +  " " + "y = " + (Dy/D));
         }
     }
