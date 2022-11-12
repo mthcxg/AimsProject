@@ -27,7 +27,7 @@ public class hept2an {
         //Dx = c1b2 - c2b1
         //Dy = a1c2 - a2c1
         //D = Dx = Dy = 0 thi he vo so nghiem, D = 0, Dx hoac Dy khac 0  thi he vo nghiem
-        //D khac 0 thi he co 1 nghiem x = Dx/D, y = Dy/D
+        //D khac 0 thi he co 1 nghiem x = Dx/D, y = Dy/D3
         float D = a1*b2 - a2*b1;
         float Dx = c1*b2 - c2*b1;
         float Dy = a1*c2 - a2*c1;
