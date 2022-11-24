@@ -1,7 +1,7 @@
 //Mai Thu Hien - 20200203
 //2.5
 //tinh tong hieu tich thuong cua 2 so do nguoi dung nhap
-import java.util.*;  
+import java.util.*;   
 public class caculate1 {
     public static void main(String[] args){
         String strNum1, strNum2;
@@ -14,7 +14,7 @@ public class caculate1 {
         double num1 = Double.parseDouble(strNum1); //chuyen string thanh double
         double num2 = Double.parseDouble(strNum2);
         double sum, minus, div, mul;
-        sum = num1 + num2; //tong
+        sum = num1 + num2; //tong  
         minus = num1 - num2; //hieu
         div = num1/num2; //tich
         mul = num1*num2; //thuong
