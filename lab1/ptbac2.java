@@ -13,7 +13,7 @@ public class ptbac2 {
         System.out.print("Nhap c: ");  
         c = sc.nextLine();  //doc he so c nguoi dung nhap
         String pt;
-        pt = a + "x^2 " + "+ " + b + "x " + "+ "+ c  + " = " + "0";
+        pt =  a + "x^2 " + "+ " + b + "x " + "+ "+ c  + " = " + "0";
         System.out.println("Phuong trinh cua ban la: " + pt);
         float a1 = Float.parseFloat(a); //doi string thanh float
         float b1 = Float.parseFloat(b);
