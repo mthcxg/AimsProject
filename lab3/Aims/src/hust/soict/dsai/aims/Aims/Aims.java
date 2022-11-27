@@ -1,10 +1,13 @@
 //Mai Thu Hien -20200203
-package Aims;
+package hust.soict.dsai.aims.Aims;
+
+import hust.soict.dsai.aims.cart.Cart.Cart;
+import hust.soict.dsai.aims.disc.DigitalVideoDisc.DigitalVideoDisc;
 
 public class Aims {
 
 	public static void main(String[] args) {
-		//create a new cart .
+		//create a new cart
 		Cart anOrder = new Cart();
 		
 		//Create new dvd object and add them to cart
@@ -14,7 +17,7 @@ public class Aims {
 
 		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Himym", "Comedy", 20f);
 		anOrder.addDigitalVideoDisc(dvd3);
-		anOrder.removeDigitalVideoDisc(dvd3); 
+		anOrder.removeDigitalVideoDisc(dvd3);
 		//anOrder.addDigitalVideoDisc(dvd1, dvd2);
 		DigitalVideoDisc[] dvdList = {dvd1,dvd2};
 		anOrder.addDigitalVideoDisc(dvdList);
